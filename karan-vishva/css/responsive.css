@@ -138,4 +138,10 @@
         font-size: 12px;
     }
     
+    .heading {
+        top: 35%;
+    }
+    .heading h2 {
+        font-size: 20px;
+    }
 }
