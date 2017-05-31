@@ -53,7 +53,7 @@ $(document).ready(function () {
 
             $('.introduction , .menu').css({
                 width: '100%',
-                height: '50%'
+                height: '59%'
             });
 
         }
