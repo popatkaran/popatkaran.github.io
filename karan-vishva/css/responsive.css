@@ -144,4 +144,8 @@
     .heading h2 {
         font-size: 20px;
     }
+  .menu > div {
+        height: 36%;
+    background-size: 255%;
+    }
 }
