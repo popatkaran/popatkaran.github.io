@@ -412,7 +412,8 @@ body {
     height: 25%;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
+    cursor: pointer
+    background: transparent url('../images/menu/profile_btn.jpg') no-repeat left center;
 }
 
 .menu > div > img {
