@@ -1,4 +1,14 @@
 {
-    "name": "popatkaran/popatkaran",
-    "description": "Karan Popat, Magento 2 Certified Associate Developer"
+    "name":"popatkaran/popatkaran",
+    "description":"Karan Popat",
+    "minimum-stability":"dev",
+    "authors": [
+        {
+            "name": "Karan Popat",
+            "email": "krn.ppt@gmail.com",
+            "role": "Backend Developer(PHP, Magento, Spryker, Drupal, Sylius) | Magento2 Certified Associate Developer",
+            "homepage": "https://popatkaran.wordpress.com/"
+        }
+    ]
+    
 }
