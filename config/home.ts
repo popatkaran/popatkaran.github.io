@@ -7,20 +7,23 @@ export const homeConfig: HomeConfig = {
   },
   hero: {
     /** Large ASCII-style heading displayed in the terminal hero */
-    title: 'YOURNAME',
+    title: 'Karan Popat',
 
     /** Rotating taglines shown in the typewriter effect */
     taglines: [
-      'Software Engineer',
-      'Open Source Contributor',
-      'Building things that matter',
+      'Lead Software Engineer',
+      'Tech Architect @ Accenture Berlin',
+      'Go & PHP Microservices',
+      'AI Workflow Engineer',
+      'Building backends that scale',
     ],
 
     /** Paragraph shown below the taglines */
-    description: 'A brief description of your background and what you are passionate about.',
+    description:
+      '12+ years designing and delivering high-performance e-commerce backends. I architect Go microservices, tame Kafka event streams, and build production-grade AI workflows with n8n, CrewAI, and Claude Code — then share what I learn.',
 
     cta: {
-      primary: { label: 'See My Work', href: '/projects' },
+      primary: { label: 'What do I think?', href: '/articles' },
       secondary: { label: 'Get In Touch', href: '/contact' },
     },
   },

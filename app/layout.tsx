@@ -4,6 +4,8 @@ import { TerminalBirdLayout, initThemeConfig } from '@terminal-bird/theme';
 import themeConfig from '../theme.config';
 import '@terminal-bird/theme/styles';
 
+import "./styles/popatkaran.css";
+
 // Initialise config at module load time so getConfig() works in all server components
 initThemeConfig(themeConfig);
 
