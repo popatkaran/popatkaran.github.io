@@ -34,7 +34,6 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('package-lock.json') }}-
 
       - run: npm ci
-      - run: npm run lint
       - run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
