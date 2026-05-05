@@ -1,3 +1,101 @@
-section {
+#articles-list section {
     padding: 48px 0;
+}
+
+/*
+ * The CSS chunk containing Hero, Button, ThemeSwitcher and CodeCopyButton styles
+ * is emitted as <script src="...css"> instead of <link rel="stylesheet"> by Next.js
+ * static export — a known bug with 'use client' components from transpilePackages.
+ * Browsers ignore CSS loaded via <script>, so these styles never apply in production.
+ * The hashed class names are deterministic (based on file path + class name) so they
+ * are safe to use as selectors here.
+ */
+
+/* ThemeSwitcher */
+.ThemeSwitcher_switcher__Ur8Uy {
+    background: none;
+    border: none;
+    color: var(--color-foreground);
+    font-family: var(--font-mono);
+    font-size: var(--font-size-base);
+    cursor: pointer;
+    padding: 0;
+    transition: color .15s;
+}
+.ThemeSwitcher_switcher__Ur8Uy:hover { color: var(--color-accent); }
+
+/* CodeCopyButton */
+.CodeCopyButton_button__9c9zP {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    background: transparent;
+    border: none;
+    color: var(--color-text-secondary);
+    padding: .25rem .5rem;
+    font-size: .75rem;
+    font-family: var(--font-mono);
+    cursor: pointer;
+    transition: all .2s;
+    z-index: 1;
+}
+.CodeCopyButton_button__9c9zP:hover { color: var(--color-primary); }
+
+/* Button */
+.Button_button__kIsSV {
+    font: inherit;
+    font-weight: var(--font-weight-bold);
+    background: transparent;
+    color: var(--color-accent);
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    transition: color .15s linear;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.Button_button__kIsSV::before { content: "[ "; }
+.Button_button__kIsSV::after  { content: " ]"; }
+.Button_button__kIsSV:hover { color: var(--color-foreground); }
+.Button_button__kIsSV:focus-visible { outline: 1px solid var(--color-accent); outline-offset: 2px; }
+.Button_secondary__t4A2l { color: var(--color-text-secondary); }
+
+/* Hero */
+.Hero_hero__ykjeX {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    display: flex;
+    align-items: center;
+}
+.Hero_container__vIhyj { width: 100%; padding: 0 var(--space-8); }
+.Hero_title__9AiN_ {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--space-4);
+}
+.Hero_title__9AiN_::before { content: '$ '; color: var(--color-accent); }
+/* stable id fallback kept for extra specificity */
+#hero-title::before    { content: '$ '; color: var(--color-accent); }
+
+.Hero_tagline__4zgb6 {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-2);
+    min-height: 2em;
+}
+.Hero_tagline__4zgb6::before { content: '> '; color: var(--color-accent); }
+
+.Hero_cursor__DYC97 { color: var(--color-accent); animation: hero-blink 1s infinite; }
+@keyframes hero-blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+
+.Hero_description__2gGpB {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-8);
+    line-height: var(--line-height-base);
+    padding-left: var(--space-6);
+    border-left: var(--space-1) solid var(--color-accent);
+}
+.Hero_actions__8wFiD { display: flex; gap: var(--space-4); flex-wrap: wrap; }
+
+@media (min-width: 768px) {
+    .Hero_container__vIhyj { padding: 0 var(--space-8); }
 }
