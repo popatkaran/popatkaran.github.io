@@ -5,6 +5,7 @@ import themeConfig from '../theme.config';
 import '@terminal-bird/theme/styles';
 
 import "./styles/popatkaran.css";
+import PageClass from './components/PageClass';
 
 // Initialise config at module load time so getConfig() works in all server components
 initThemeConfig(themeConfig);
@@ -67,6 +68,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <TerminalBirdLayout config={themeConfig} fontVariable={font.variable}>
+      <PageClass />
       {children}
     </TerminalBirdLayout>
   );

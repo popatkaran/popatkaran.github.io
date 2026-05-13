@@ -16,7 +16,7 @@ export const aboutConfig: AboutConfig = {
   hero: {
     title: 'Who is Karan Popat?',
     subtitle:
-      'I am a Lead Software Engineer and Technology Architect based in Berlin, Germany, with over 12 years of experience building and scaling Tier-1 e-commerce backends. At Accenture I lead a team of 8+ engineers, own the architecture of Go microservices and event-driven systems, and champion engineering practices that ship reliable software at pace.\n\nOver the past year I have moved beyond traditional backend work into production AI — building agentic workflows with n8n, CrewAI, Claude Code, Amazon Q, and Gemini CLI that eliminate manual toil and accelerate delivery cycles. I write about what I build on my blog and believe that the next step-change in engineering productivity comes from engineers who can bridge deep system design with practical AI integration.',
+      'Karan Popat is a Lead Software Engineer and Technology Architect based in Berlin, Germany, with over 12 years of experience building and scaling Tier-1 e-commerce backends. He leads a team of 8+ engineers, owns the architecture of Go microservices and event-driven systems, and champions engineering practices that ship reliable software at pace. Over the past year he has moved beyond traditional backend work into production AI — building agentic workflows with n8n, CrewAI, Claude Code, Amazon Q, and Gemini CLI that eliminate manual toil and accelerate delivery cycles. He writes about what he builds on his blog and believes that the next step-change in engineering productivity comes from engineers who can bridge deep system design with practical AI integration.',
   },
   coreServices: {
     title: 'Core Services',

@@ -1,7 +1,3 @@
-#articles-list section {
-    padding: 48px 0;
-}
-
 /*
  * The CSS chunk containing Hero, Button, ThemeSwitcher and CodeCopyButton styles
  * is emitted as <script src="...css"> instead of <link rel="stylesheet"> by Next.js
@@ -98,4 +94,15 @@
 
 @media (min-width: 768px) {
     .Hero_container__vIhyj { padding: 0 var(--space-8); }
+}
+
+/* About page sections - 32px top & bottom padding */
+body:has([data-page="about"]) section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.page-about section {
+    padding: 32px 0;
 }
